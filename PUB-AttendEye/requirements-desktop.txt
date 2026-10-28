@@ -1,0 +1,8 @@
+# Runtime dependencies for the Windows desktop app (installed automatically by the installer).
+# opencv-python-headless: same face API as opencv-python, no GUI libraries needed.
+fastapi>=0.110
+uvicorn>=0.29
+SQLAlchemy>=2.0
+opencv-python-headless>=4.8.0
+numpy>=1.24
+cryptography>=42.0

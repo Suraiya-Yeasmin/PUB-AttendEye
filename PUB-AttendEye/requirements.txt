@@ -1,0 +1,7 @@
+# PUB AttendEye runtime dependencies
+fastapi>=0.110
+uvicorn>=0.29
+SQLAlchemy>=2.0
+opencv-python>=4.8.0      # needs >=4.8 for the YuNet 2023mar detector
+numpy>=1.24
+cryptography>=42.0        # encrypts stored face templates (Fernet)
